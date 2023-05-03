@@ -1,0 +1,244 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+
+.color-green{
+    background: #55f665;
+    border-color: rgb(81, 255, 0);
+}
+
+.color-blue{
+  
+    background: #24a1fb;
+    border-color: rgb(0, 97, 188);
+}
+
+.color-yellow{
+    background: rgb(241, 246, 95);
+    border-color: rgb(255, 200, 0);
+}
+
+.card-container{
+    height: 500px;
+    width: 340px;
+    padding: 15px; 
+    border-radius:15px;
+    border-style:solid;
+    box-shadow: 3px 3px 6px rgb(255, 254, 254);  
+    transition: all .5s ease-in-out;
+}
+
+.background{
+    text-align: center;
+    background: #ffff;
+    height: 250px;
+    width: 330px;
+    margin-left:3px;
+    border-style: solid;
+
+}
+
+.background img{
+    transition: .5s ease-in-out;
+    position: relative;
+    z-index: 10;
+}
+
+.background img:hover{
+    transform: scale(1.2);
+}
+
+.imagem{
+    height: 248px;
+    width: 248px;
+    
+}
+
+.pokenome{
+    text-align: center;
+    padding: 10px;
+    
+
+
+}
+.tipo{
+    text-align: center;
+    background-color: black;
+    padding:5px;
+    color:white;
+    border-radius:5px;
+    width: 80px;
+    display: block;
+    position: relative;
+    top: -65px;
+    left: 10px;
+
+
+}
+
+.pokestatus > ul li{
+    letter-spacing: 3px;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.card-container2{
+    background: #55f665;
+    height: 500px;
+    width: 340px;
+    margin:10%;
+    margin-top: -688px;
+    margin-left: 590px;
+    display: block;
+    padding: 15px; 
+    border-radius:15px;
+    border-style:solid;
+    border-color: rgb(81, 255, 0);
+    box-shadow: 2px 2px 4px rgb(255, 254, 254);
+    
+   
+   
+}
+.background2{
+    text-align: center;
+    background: #ffff;
+    height: 250px;
+    width: 330px;
+    margin-left:3px;
+    border-style: solid;
+   
+}
+
+.imagem2{
+    height: 248px;
+    width: 248px;
+    
+}
+.informarçoes2{
+    margin: auto;
+}
+
+.pokenome2{
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px;
+
+
+}
+.tipo2{
+    text-align: center;
+    background-color: rgb(114, 255, 62);
+    padding:4px;
+    color:rgb(0, 0, 0);
+    width: 80px;
+    border-radius:5px;
+    display: block;
+    position: relative;
+    top: -65px;
+    left: 10px;
+
+
+}
+.tipo2-1{
+    text-align: center;
+    background-color: rgb(127, 137, 248);
+    padding:5px;
+    color:rgb(0, 0, 0);
+    border-radius:5px;
+    width: 80px;
+    display: block;
+    position: relative;
+    top: -60px;
+    left: 10px;
+
+}
+
+.pokestatus02 >ul{
+    margin-top: -28px;
+    
+}
+.pokestatus02 > ul li{
+    letter-spacing: 3px;
+    margin: 4px;
+    margin-left: 25px;
+    
+}
+
+.card-container3{
+    background: #24a1fb;
+    height: 500px;
+    width: 340px;
+    margin-top: -690px;
+    margin-left: 1020px;
+    padding: 15px; 
+    border-radius:15px;
+    border-style:solid;
+    border-color: rgb(0, 97, 188);
+    box-shadow: 3px 3px 6px rgb(255, 254, 254);
+    
+   
+   
+}
+.background3{
+    text-align: center;
+    background: #ffff;
+    height: 250px;
+    width: 330px;
+    margin-left:3px;
+    border-style: solid;
+}
+
+.imagem3{
+    height: 248px;
+    width: 248px;
+    
+}
+
+.pokenome3{
+    text-align: center;
+    padding: 10px;
+    
+
+
+}
+.tipo3{
+    text-align: center;
+    padding:5px;
+    color:rgb(0, 0, 0);
+    border: 1px solid #002a47;
+    border-radius:5px;
+    width: 80px;
+    display: block;
+    position: relative;
+    top: -65px;
+    left: 10px;
+
+
+}
+
+.pokestatus3 > ul li{
+    letter-spacing: 3px;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
