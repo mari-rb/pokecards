@@ -1,3 +1,3 @@
 
-https://mareanx.github.io/pokecards/
+https://mari-rb.github.io/pokecards/
 
